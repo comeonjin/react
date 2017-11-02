@@ -1,0 +1,87 @@
+.indexContainer{
+    margin-top: 4px;
+    width: 1022px;
+    height: 1045px;
+
+    background: white;
+    /*position: absolute;*/
+    font-size: 12px;
+}
+.indexContainer .news{
+    width: 1022px;
+    height: 935px;
+    border: 1px solid #ff4444;
+    background: white;
+}
+.indexContainer .news h1{
+    line-height: 25px;
+    font-weight: normal;
+    background: #ff4444;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+
+    padding-left: 15px;
+}
+
+.indexContainer .news .item{
+    line-height: 22px;
+    margin-left: 10px;
+}
+.indexContainer .news .item span{
+    padding:1px 5px;
+}
+.indexContainer .news .item span:hover{
+    background: #dbe9f4;
+    margin-left: 3px;
+}
+.indexContainer .news .item .content_simple:hover{
+    background: #dbe9f4;
+    margin-left: 6px;
+}
+.indexContainer .news .title_Advertisement{
+    color: #15a5d3;
+}
+.indexContainer .news .title_Speed{
+    color: #b04533;
+}
+.indexContainer .news .title_Basic{
+     color: #a08a21;
+ }
+.indexContainer .news .title_AsItIs{
+    color: #3b8070;
+}
+.indexContainer .news .item .content_simple{
+    color: #004499;
+    margin-left: 2px;
+}
+
+
+.friendLink{
+    margin-top: 4px;
+    border: 1px solid #333;
+    background: #fff;
+    height: 100px;
+}
+.friendLink h1{
+    font-size: 12px;
+    background: #0066cc;
+    line-height: 25px;
+    color: #fff;
+    padding-left: 15px;
+    font-weight: normal;
+}
+.friendLink ul li{
+    line-height: 25px;
+    width: 84px;
+    float: left;
+    text-align: center;
+}
+.friendLink ul li a{
+    color: #3D81F2;
+}
+
+.friendLink ul li a:hover{
+    color: #666;
+    text-decoration: underline;
+}

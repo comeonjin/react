@@ -1,0 +1,121 @@
+.headerContainer{
+    width:1024px;
+    margin:0 auto;
+}
+
+.header{
+    font-size:12px;
+    height:70px;
+    overflow: hidden;
+}
+
+/*header 左侧*/
+.header .logo{
+    float: left;
+    height: 60px;
+    margin: 5px 0 0 60px;
+    display: block;
+}
+
+/*header 右侧*/
+.header .listContainer {
+    width: 700px;
+    float: right;
+}
+
+.header .listContainer .listItem{
+    float:left;
+    white-space: nowrap;
+    padding: 0 10px;
+    margin-top: 13px;
+    border-right: 1px solid #666;
+
+}
+
+.header .listContainer .listItem a{
+    color: #666;
+}
+.header .listContainer .listItem a:hover{
+    color: orange;
+}
+
+/*------------*/
+.headerNav{
+    border: 1px solid #FFE9D3;
+    font-size: 12px;
+    overflow: hidden;
+}
+.headerNav .navblock{
+    float: left;
+}
+.headerNav .navblock-left{
+    width:115px;
+}
+.headerNav .navblock-middle{
+    width:425px;
+    border-left: 1px solid #FFE9D3;
+    border-right: 1px solid #FFE9D3;
+}
+.headerNav .navblock-right{
+    width:480px;
+
+}
+
+.headerNav .navblock h2{
+    border-bottom: 1px solid #FFE9D3;
+    background: #fdf4e5;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: #666;
+}
+.headerNav .navblock h2 a{
+    color:#666;
+}
+.headerNav .navblock h2 a:hover{
+    color:orange;
+}
+
+.headerNav .navblock li{
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    float : left;
+}
+.headerNav .navblock li a{
+    color:#666;
+}
+.headerNav .navblock li a:hover{
+    color:orange;
+}
+
+.headerNav .navblock-left li{
+    width:100%;
+}
+.headerNav .navblock-middle li{
+    width:20%;
+}
+.headerNav .navblock-right li{
+    width:20%;
+}
+
+/*----------------------footer------*/
+.footer{
+    clear: both;
+    margin-top: 4px;
+    height: 90px;
+    background: #f8f8f8;
+    border: 1px solid #aaa;
+}
+.footer p{
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer p a{
+    color: orange;
+    font-weight: bolder;
+}

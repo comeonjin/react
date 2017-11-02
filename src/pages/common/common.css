@@ -1,0 +1,54 @@
+.container{
+    margin-top: 4px;
+    width: 1022px;
+    height: 985px;
+    border: 1px solid #ff4444;
+    background: white;
+    /*position: absolute;*/
+    font-size: 12px;
+}
+.container h1 {
+    line-height: 25px;
+    font-weight: normal;
+    background: #ff4444;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.container h1 a{
+    color: #fff;
+}
+
+.container .item{
+    line-height: 22px;
+    margin-left: 10px;
+}
+.container .item span{
+    padding:1px 5px;
+}
+.container .item span:hover{
+    background: #dbe9f4;
+    margin-left: 3px;
+}
+.container .item .content_simple:hover{
+    background: #dbe9f4;
+    margin-left: 6px;
+}
+.container .title_Advertisement{
+    color: #15a5d3;
+}
+.container .title_Speed{
+    color: #b04533;
+}
+.container .title_Basic{
+     color: #a08a21;
+ }
+.container .title_AsItIs{
+    color: #3b8070;
+}
+.container .item .content_simple{
+    color: #004499;
+    margin-left: 2px;
+}
